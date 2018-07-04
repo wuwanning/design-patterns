@@ -5,7 +5,7 @@ import org.junit.Test;
 public class Demo {
 
 	@Test
-	public void test(){
+	public void testFactory(){
 		ShapeFactory sf = new ShapeFactory();
 		//想要圆 
 		Shape shape = sf.getShape("circle");
