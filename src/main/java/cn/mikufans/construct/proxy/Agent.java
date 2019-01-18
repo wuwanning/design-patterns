@@ -1,4 +1,4 @@
-package cn.mikufans.contructor.proxy;
+package cn.mikufans.construct.proxy;
 
 public class Agent implements Idol{
 
