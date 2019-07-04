@@ -1,4 +1,4 @@
-package cn.mikufans.create.factory;
+package cn.mikufans.create.factory.factory;
 
 public class Circle implements Shape{
 

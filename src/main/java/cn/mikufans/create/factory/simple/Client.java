@@ -1,12 +1,12 @@
-package cn.mikufans.create.factory;
+package cn.mikufans.create.factory.simple;
 
 import org.junit.Test;
 
-public class Demo {
+public class Client {
 
 	@Test
 	public void testFactory(){
-		ShapeFactory sf = new ShapeFactory();
+		ShapeSimpleFactory sf = new ShapeSimpleFactory();
 		//想要圆 
 		Shape shape = sf.getShape("circle");
 		shape.draw();

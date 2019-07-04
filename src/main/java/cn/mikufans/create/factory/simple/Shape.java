@@ -1,4 +1,4 @@
-package cn.mikufans.create.factory;
+package cn.mikufans.create.factory.simple;
 
 public interface Shape {
 

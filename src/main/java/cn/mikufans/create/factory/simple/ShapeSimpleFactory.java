@@ -1,6 +1,6 @@
-package cn.mikufans.create.factory;
+package cn.mikufans.create.factory.simple;
 
-public class ShapeFactory {
+public class ShapeSimpleFactory {
 	 
 	public Shape getShape(String shapeType){
 	      if(shapeType == null){
